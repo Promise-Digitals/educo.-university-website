@@ -7,6 +7,19 @@
     font-family: "Outfit", sans-serif;
 }
 
+/* ---------------- styling scrollbar -------------- */
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    color: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background: teal;
+    border-radius: 5px;
+}
+
+
 body{
     background: #f5f5f5;
 }
