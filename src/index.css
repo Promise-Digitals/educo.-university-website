@@ -12,10 +12,10 @@
     width: 12px;
 }
 ::-webkit-scrollbar-track{
-    color: #fff;
+    background: teal;
 }
 ::-webkit-scrollbar-thumb{
-    background: teal;
+    background: #fff;
     border-radius: 5px;
 }
 
@@ -53,4 +53,9 @@ a{
 .btn img{
     width: 15px;
     margin-left: 10px;
+}
+
+.btn.teal-btn{
+    background: teal;
+    color: #fff;
 }
