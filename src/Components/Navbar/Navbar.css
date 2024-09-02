@@ -27,3 +27,14 @@ nav ul li{
     background: teal;
     transition: 0.5s;
 }
+
+/* ---------- Media Query ----------- */
+@media (max-width: 1000px) {
+    .logo{
+        width: 120px;
+    }
+
+    nav ul li{
+        margin: 10px 15px;
+    }
+}
