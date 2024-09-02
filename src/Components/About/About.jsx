@@ -1,12 +1,12 @@
 import React from 'react';
 import './About.css'
 
-const About = () => {
+const About = (props) => {
     return (
         <div className='about'>
             <div className="about-left">
                 <img src={('assets/about.png')} className='about-img' />
-                <img src={('assets/play-icon.png')} className='play-icon' />
+                <img src={('assets/play-icon.png')} className='play-icon' onClick={()=>{props.setPlayState(true)}}/>
             </div>
 
             <div className="about-right">
