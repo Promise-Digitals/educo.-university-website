@@ -45,3 +45,20 @@
     color: #212121;
     margin-bottom: 15px;
 }
+
+/* ---------- Media Query ----------- */
+@media (max-width: 800px) {
+    .about{
+        flex-direction: column-reverse;
+    }
+
+    .about-left{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+
+    .about-right{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
