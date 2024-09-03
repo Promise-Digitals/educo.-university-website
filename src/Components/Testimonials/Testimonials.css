@@ -66,7 +66,7 @@
 /* -------- Media Query --------- */
 @media (max-width: 800px) {
     .testimonials{
-        padding: 0 40px;
+        padding: 0 25px;
     }
 
     .next-btn, .back-btn{
@@ -102,5 +102,6 @@
 
     .slider p{
         font-size: 12px;
+        text-align: justify;
     }
 }

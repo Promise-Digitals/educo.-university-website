@@ -46,7 +46,7 @@ const Testimonials = () => {
                             <div className="user-info">
                                 <img src={('assets/user-2.png')} alt="" />
                                 <div>
-                                    <h3>William Jackson</h3>
+                                    <h3>Willy Jackson</h3>
                                     <span>Educo, USA</span>
                                 </div>
                             </div>
