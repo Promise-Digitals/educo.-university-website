@@ -64,9 +64,14 @@
 @media (max-width: 700px) {
     .contact{
         display: block;
+        max-width: 100%;
     }
 
     .contact-col{
         padding: 20px;
+    }
+
+    .contact-col p{
+        text-align: justify;
     }
 }
